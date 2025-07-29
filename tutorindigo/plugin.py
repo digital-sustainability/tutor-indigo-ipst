@@ -142,6 +142,14 @@ hooks.Filters.ENV_PATCHES.add_item(
         "RUN npm install '@edx/brand@npm:@edly-io/indigo-brand-openedx@^2.2.2'",
     )
 )
+hooks.Filters.ENV_PATCHES.add_item(
+    (
+        "mfe-dockerfile-post-npm-install",
+        """
+        RUN npm install '@edx/brand@git+https://github.com/digital-sustainability/brand-openedx.git#color-branch'
+        """,
+    )
+)
 
 # Include js file in lms main.html, main_django.html, and certificate.html
 
