@@ -111,6 +111,7 @@ indigo_styled_mfes = [
     "profile",
     "account",
     "discussions",
+    "course-authoring",
 ]
 
 
@@ -120,9 +121,7 @@ for mfe in indigo_styled_mfes:
             (
                 f"mfe-dockerfile-post-npm-install-{mfe}",
                 """
-RUN npm install @edly-io/indigo-frontend-component-footer@^2.0.0
-RUN npm install '@edx/frontend-component-header@npm:@edly-io/indigo-frontend-component-header@^3.2.2'
-RUN npm install '@edx/brand@npm:@edly-io/indigo-brand-openedx@^2.2.2'
+RUN npm install '@edx/brand@git+https://github.com/digital-sustainability/brand-openedx.git#color-branch'
 
 """,
             ),
@@ -139,9 +138,12 @@ const { default: IndigoFooter } = await import('@edly-io/indigo-frontend-compone
 hooks.Filters.ENV_PATCHES.add_item(
     (
         "mfe-dockerfile-post-npm-install-authn",
-        "RUN npm install '@edx/brand@npm:@edly-io/indigo-brand-openedx@^2.2.2'",
+        """
+        RUN npm install '@edx/brand@git+https://github.com/digital-sustainability/brand-openedx.git#color-branch'
+        """,
     )
 )
+
 hooks.Filters.ENV_PATCHES.add_item(
     (
         "mfe-dockerfile-post-npm-install",
