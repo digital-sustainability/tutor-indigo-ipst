@@ -31,10 +31,9 @@ header.global-header {
             height: auto;
             @include media-breakpoint-up(lg) {
                 margin: 0;
-                margin: 20px 0 0;
             }
             .logo {
-                height: 24px;
+                height: 60px;
                 margin: 0;
             }
         }
@@ -169,7 +168,7 @@ header.global-header {
     }
 }
 .header-container {
-    margin: 0 auto;
+    margin: 14px 14px;
     padding: 0 15px;
     max-width: 1600px;
     box-sizing: border-box;
@@ -193,7 +192,7 @@ header.global-header {
     .light-theme-icon, .dark-theme-icon{
         width: 18px;
         height: 1.5rem;
-        color: $primary;
+        color: $secondary-light;
         & svg {
             width: inherit;
             height: inherit;
@@ -237,7 +236,7 @@ header.global-header {
                 left: 0;
                 right: 0;
                 bottom: 0;
-                background-color: $primary-d;
+                background-color: $secondary-light;
                 transition: .4s;
 
                 &::before{
@@ -307,7 +306,7 @@ body.indigo-dark-theme {
             }
             .secondary {
                 .toggle-user-dropdown {
-                    background: $primary-d;
+                    background: $secondary-light;
                     color: $btn-color-d;
                     &:after {
                         border-color: $btn-color-d;
@@ -346,7 +345,7 @@ body.indigo-dark-theme {
                 input {
                   &:focus {
                     ~ .slider {
-                      outline-color: $primary-d;
+                      outline-color: $secondary-light;
                     }
                   }
                 }

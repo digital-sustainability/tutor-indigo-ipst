@@ -1,16 +1,20 @@
-$primary: {{ INDIGO_PRIMARY_COLOR }};
-$primary-light: #F2F7F8;
+$primary: #FFCB3E;
+$primary-light: #FFF;
+$secondary-light: #697D91;
 
 // Theme fonts
-$font-family-title: 'Inter', sans-serif;
-$serif: Crimson;
-$f-sans-serif: Crimson, 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+$font-family-title: 'UnitRoundedPro', sans-serif;
+$serif: 'UnitRoundedPro';
+$f-sans-serif: 'UnitRoundedPro', 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 // Initialize the Open edX Bootstrap theme
 @import 'edx-bootstrap/sass/open-edx/theme';
 
 
 // Introducing new variables
+$text-color-light: #000000;
+$gray-light: #E6EBEE;
+$white: #FFFFFF;
 
 $dark: #111827;
 $light-dark: #374151;
@@ -20,7 +24,7 @@ $big-screen: 1200px;
 
 // Introducing dark-theme variables
 
-$primary-d: #AEC7F6;
+$primary-d: #FFCB3E;
 $primary-light-d: #292A2C;
 $gray-light: #E5E7EB;
 $gray-lighter: #c8c8c8;

@@ -1,0 +1,24 @@
+<%namespace name='static' file='/static_content.html'/>
+
+<%!
+from django.urls import reverse
+from django.utils.translation import gettext as _
+from openedx.core.djangoapps.site_configuration import helpers as configuration_helpers
+
+# App that handles subdomain specific branding
+from lms.djangoapps.branding import api as branding_api
+%>
+<div class="bfh-home-subtitle">
+    <div class="subtitle-content">
+        <img class="logo-image" src="${static.url("images/logo.png")}" alt="${_("{platform_name} Home Page").format(platform_name=static.get_platform_name())}" itemprop="logo" />
+        <h2>Ihre Plattform für lebenslanges Lernen.</h2>
+        <h3>Weiterbildung BFH Wirtschaft</h3>
+        <p>
+            Entwickeln Sie Ihre Fähigkeiten mit praxisorientierten Online-Kursen, 
+            die in kleinen, flexiblen Einheiten in Ihren Alltag passen. 
+            Ob für die Karriere oder persönliche Weiterentwicklung, 
+            lernen Sie in Ihrem Tempo, wann und wo es Ihnen passt. 
+            Starten Sie noch heute und gestalten Sie Ihre Zukunft!
+        </p>
+    </div>
+</div>

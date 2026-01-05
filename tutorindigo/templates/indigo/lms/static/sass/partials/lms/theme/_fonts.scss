@@ -1,48 +1,48 @@
-///////// Serif
+///////// Sans-Serif
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'UnitRoundedPro';
   src:
-    url('#{$static-path}/fonts/CrimsonText-Regular.ttf') format('truetype');
+    url('#{$static-path}/fonts/UnitRoundedPro-Light.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'UnitRoundedPro';
   src:
-    url('#{$static-path}/fonts/CrimsonText-Italic.ttf') format('truetype');
+    url('#{$static-path}/fonts/UnitRoundedPro-LightItalic.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'UnitRoundedPro';
   src:
-    url('#{$static-path}/fonts/CrimsonText-SemiBold.ttf') format('truetype');
+    url('#{$static-path}/fonts/UnitRoundedPro.otf') format('opentype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'UnitRoundedPro';
   src:
-    url('#{$static-path}/fonts/CrimsonText-SemiBoldItalic.ttf') format('truetype');
+    url('#{$static-path}/fonts/UnitRoundedPro.otf') format('opentype');
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'UnitRoundedPro';
   src:
-    url('#{$static-path}/fonts/CrimsonText-Bold.ttf') format('truetype');
+    url('#{$static-path}/fonts/UnitRoundedPro-Medi.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'UnitRoundedPro';
   src:
-    url('#{$static-path}/fonts/CrimsonText-BoldItalic.ttf') format('truetype');
+    url('#{$static-path}/fonts/UnitRoundedPro-Medi.otf') format('opentype');
   font-weight: 700;
   font-style: italic;
 }

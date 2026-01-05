@@ -138,7 +138,7 @@
                             font-weight: 500;
                             line-height: 20px;
                             margin: 0 0 30px;
-                            color: #fff;
+                            color: $btn-color-d;
                             &:hover {
                                 opacity: .8;
                             }
@@ -188,7 +188,7 @@
                         padding: 2px 10px;
                         border-radius: 12px;
                         background: $primary !important;
-                        color: #fff;
+                        color: $text-color-light;
                         font-size: 14px;
                         line-height: 20px;
                     }
@@ -215,7 +215,7 @@
                         position: static;
                         margin: 0 0 0 16px;
                         min-width: 90px;
-                        color: #fff;
+                        color: $secondary-light;
                         font-size: 16px;
                         font-weight: 500;
                         line-height: 26px;
