@@ -2,7 +2,7 @@
 
 [project]
 name = "tutor-indigo-bfh"
-description = "Indigo theme plugin for Tutor"
+description = "BFH theme based on Indigo for Tutor"
 readme = { file = "README.rst", content-type = "text/x-rst" }
 license = { text = "AGPLv3" }
 requires-python = ">=3.9"
