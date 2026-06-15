@@ -10,15 +10,225 @@
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="container about">
         <h1>
-            <%block name="pageheader">${page_header or _("Privacy Policy")}</%block>
+            <%block name="pageheader">${page_header or _("Impressum und Rechtliche Hinweise")}</%block>
         </h1>
         <p>
-            <%block name="pagecontent">${page_content or _("This page left intentionally blank. Feel free to add your own content.")}</%block>
+            Die Adresse unserer Website ist: 
+            <a href="https://digitalskillsbern.ch">https://digitalskillsbern.ch</a>
         </p>
-        <!-- NEW IN INDIGO: add graphic image -->
-        <div class="graphic-img">
-            <img src="${static.url('images/privacy.svg')}" alt="Runs on Tutor" />
-            <img class="dark" src="${static.url('images/privacy-dark.svg')}" alt="Runs on Tutor" />
-        </div>
+        <p>
+            Die Digital Skills Bern Plattform ist Teil der Berner Fachhochschule Wirtschaft. 
+            Bei Fragen zum Webauftritt wende dich bitte an: 
+        </p>
+        <p>
+            Berner Fachhochschule<br /> 
+            Wirtschaft<br />
+            Brückenstrasse 73<br />
+            3005 Bern<br />
+            <a href="mailto:info@digitalskillsbern.ch">info@digitalskillsbern.ch</a> <br />
+        </p>
+        <ol>
+            <li>
+                <h2>Rechtliche Hinweise </h2>
+                <p>
+                    Die rechtlichen Hinweise sowie die auf dieser Webseite enthaltenen 
+                    Informationen und Ansichten können jederzeit und ohne Ankündigung geändert 
+                    werden. Für die Domain digitalskillsbern.ch gilt die Datenschutzerklärung 
+                    der Berner Fachhochschule. Ergänzend dazu gilt für Digital Skills Bern: 
+                </p>
+            </li>
+            <li>
+                <h2>Copyright</h2>
+                <p>
+                    Die durch die Seitenbetreiber erstellten Inhalte und Werke auf dieser Plattform 
+                    unterliegen dem Schweizer Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung 
+                    und jede Art der Verwertung ausserhalb der Grenzen des Urheberrechtes bedürfen der 
+                    schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien 
+                    dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+                </p>
+                <p>
+                    Diese Plattform verwendet Open edX, eine Open Source Lernplattform, 
+                    die unter der AGPLv3 Lizenz steht. 
+                </p>
+            </li>
+            <li>
+                <h2>Welche personenbezogenen Daten wir sammeln und warum wir sie sammeln</h2>
+                <ol>
+                    <li>
+                        <h4>Vom Nutzer bereitgestellte Daten</h4>
+                        <p>
+                            Wenn Sie sich auf der Website registrieren oder auf andere Weise 
+                            mit Digital Skills Bern im Rahmen der Services in Kontakt treten, 
+                            können Sie aufgefordert werden, uns bestimmte Daten wie z.B. 
+                            Ihre Privat- und Geschäftsadresse, Rechnungsdaten, Login-Daten etc. 
+                            direkt oder über einen bereits vorhandenen Account (z.B. SWITCH AAI) 
+                            zur Verfügung zu stellen (nachfolgend „Registrierungsdaten“). 
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Nutzungsdaten der Website und der Dienste</h4>
+                        <p>
+                            Wenn Sie unsere Plattform nutzen, erfassen wir automatisch bestimmte 
+                            Informationen über Ihre Aktivitäten und Ihr Nutzungsverhalten. Diese 
+                            Daten helfen uns, das Nutzererlebnis zu verbessern, die Sicherheit 
+                            der Plattform zu gewährleisten und technische Probleme zu analysieren. 
+                            Wir speichern Informationen über Ihre Interaktionen mit der Plattform, 
+                            wie z.B. besuchte Kurse, angesehene Inhalte, Verweildauer, Fortschritt. 
+                            Darüber hinaus erfassen wir technische Daten wie Ihre IP-Adresse, den 
+                            verwendeten Browsertyp und die Browserversion, das Betriebssystem, den 
+                            Gerätetyp, die Bildschirmauflösung, die Ladezeiten sowie etwaige Fehlerberichte. 
+                        </p>
+                        <p>
+                            Um diese Informationen zu sammeln, verwenden wir verschiedene Tracking-Technologien, 
+                            darunter Cookies, Session-Storage und Web Beacons. Diese Technologien ermöglichen 
+                            es uns, die Nutzung der Plattform zu analysieren und ihre Funktionalität zu 
+                            optimieren. Bei Bedarf setzen wir externe Analysetools wie [Matomo/Google 
+                            Analytics/etc.] ein, um anonymisierte Auswertungen des Nutzerverhaltens zu 
+                            erstellen. Die erhobenen Daten werden ausschliesslich zur Verbesserung der 
+                            Plattform und ihrer Funktionalitäten verwendet und nicht für personalisierte 
+                            Werbung genutzt. 
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Kommentare</h4>
+                        <p>
+                            Wenn Nutzer Kommentare in Diskussionsforen oder anderen interaktiven Bereichen 
+                            unserer Plattform hinterlassen, erfassen wir die im Eingabeformular angegebenen Daten. 
+                            Zusätzlich speichern wir die IP-Adresse des Nutzers sowie den User-Agent-String des 
+                            Browsers, um die Erkennung von Spam und missbräuchlichem Verhalten zu unterstützen. 
+                        </p>
+                        <p>
+                            Nach der Freigabe eines Kommentars oder Forenbeitrags ist dieser öffentlich sichtbar 
+                            und wird mit dem zugehörigen Benutzernamen und ggf. dem Profilbild angezeigt. 
+                            Bitte beachten Sie, dass Beiträge auch nach Beendigung eines Kurses sichtbar 
+                            bleiben können, sofern der Kurs nicht archiviert oder gelöscht wird. 
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Kontaktformulare</h4>
+                        <p>
+                            Wenn du uns per Kontaktformular Anfragen zukommen lässt, werden deine Angaben aus 
+                            dem Anfrageformular inklusive der von dir dort angegebenen Kontaktdaten zwecks 
+                            Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. 
+                            Diese Daten geben wir nicht ohne deine Einwilligung weiter. 
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Cookies</h4>
+                        <p>
+                            Wir setzen auf unserer Webseite Cookies (Session-Cookies und permanente Cookies) ein. 
+                            Hierbei handelt es sich um kleine Dateien, die Ihr Browser automatisch erstellt und 
+                            die auf Ihrem Endgerät (Laptop, Tablet, Smartphone etc.) gespeichert werden, wenn Sie 
+                            unsere Seite besuchen. Ein Cookie bedeutet nicht in jedem Fall, dass wir Sie 
+                            identifizieren können. 
+                        </p> 
+                        <p>
+                            Der Einsatz von Session-Cookies dient einerseits dazu, die Nutzungshäufigkeit, 
+                            Nutzerzahl und Verhaltensweisen auf unserer Webseite zu protokollieren, andererseits 
+                            um die Sicherheit der Webseite-Nutzung zu erhöhen und unser Informationsangebot 
+                            nutzerfreundlich auszugestalten. Sobald Sie die Webseite verlassen werden 
+                            diese Cookies automatisch gelöscht. 
+                        </p>
+                        <p>
+                            Darüber hinaus setzen wir ebenfalls zur Optimierung der Benutzerfreundlichkeit 
+                            permanente (Cookies ein, die für einen bestimmten festgelegten Zeitraum auf 
+                            Ihrem Endgerät gespeichert werden. Besuchen Sie unsere Seite erneut, um unsere 
+                            Dienste in Anspruch zu nehmen, wird automatisch erkannt, dass Sie bereits bei 
+                            uns waren und welche Eingaben und Einstellungen sie getätigt haben, um diese 
+                            nicht noch einmal eingeben zu müssen. 
+                        </p>
+                        <p>
+                            Mit der fortgesetzten Nutzung unserer Webseite oder mit der Zustimmung zu 
+                            dieser Datenschutzerklärung willigen Sie ein, dass wir Cookies setzen und 
+                            auch nach Beendigung der Browser-Sitzung personenbezogene Nutzerdaten erheben, 
+                            speichern und nutzen dürfen. Sie können diese Einwilligung jederzeit widerrufen, 
+                            indem Sie die Standardeinstellung des Browsers zur Ablehnung von Cookies 
+                            Dritter aktivieren.     
+                        </p>
+                        <p>
+                            Die durch Cookies verarbeiteten Daten werden für die vorgenannten Zwecke 
+                            benötigt, um unsere berechtigten Interessen und die Interessen Dritter zu 
+                            wahren. Cookies dienen dazu, unser Angebot attraktiver, effektiver, sicherer 
+                            und benutzerfreundlicher zu gestalten. 
+                        </p>
+                        <p>
+                            Die meisten Internet-Browser sind so eingestellt, dass sie Cookies automatisch 
+                            akzeptieren. Wenn Sie nicht möchten, dass unsere Webseite Cookies auf Ihrem 
+                            Gerät speichert, können Sie Ihren Browser so einstellen, dass Sie eine 
+                            Warnung erhalten, bevor bestimmte Cookies gespeichert werden. Sie können 
+                            Ihre Einstellungen auch so einstellen, dass Ihr Browser die meisten unserer 
+                            Cookies ablehnt oder nur bestimmte Cookies ablehnt oder ganz deaktiviert. 
+                            Sie können Ihre Zustimmung zu Cookies auch widerrufen, indem Sie die bereits 
+                            gespeicherten Cookies löschen. 
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Eingebettete Inhalte von anderen Websites</h4>
+                        <p>
+                            Beiträge auf dieser Website können eingebettete Inhalte beinhalten 
+                            (z. B. Videos, Bilder,Links, Beiträge etc.). Eingebettete Inhalte 
+                            von anderen Websites verhalten sich exakt so, als ob der Besucher 
+                            die andere Website besucht hätte. Diese Websites können Daten über 
+                            dich sammeln, Cookies benutzen, zusätzliche Tracking-Dienste von 
+                            Dritten einbetten und deine Interaktion mit diesem eingebetteten 
+                            Inhalt aufzeichnen, inklusive deiner Interaktion mit dem eingebetteten 
+                            Inhalt, falls du ein Konto hast und auf dieser Website angemeldet bist. 
+                        </p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h2>Mit wem wir deine Daten teilen</h2>
+                <p>
+                    Die Daten, welche auf der Seite gesammelt werden, teilen wir nicht mit Dritten.
+                </p>
+            </li>
+            <li>
+                <h2>Wie lange wir deine Daten speichern </h2>
+                <p>
+                    Wenn Sie auf unserer Plattform einen Kommentar oder einen Forenbeitrag 
+                    verfassen, wird dieser mit den dazugehörigen Metadaten gespeichert. 
+                    Dies ermöglicht es uns, den Diskussionsverlauf innerhalb eines Kurses 
+                    zu erhalten und den Nutzern das Nachvollziehen früherer Inhalte zu 
+                    erleichtern. Die Sichtbarkeit von Kommentaren und Forenbeiträgen bleibt 
+                    in der Regel auch nach dem Ende eines Kurses erhalten, sofern dieser nicht 
+                    archiviert oder gelöscht wird. 
+                </p>
+                <p>
+                    Für Nutzer:innen, die sich auf unserer Plattform registrieren, speichern 
+                    wir die im Nutzerprofil angegebenen Daten. Registrierte Nutzer:innen können 
+                    ihre persönlichen Daten jederzeit einsehen und teilweise ändern. Der 
+                    Benutzername kann aus technischen Gründen nicht geändert werden. 
+                    Plattform-Administratoren können Benutzerprofile verwalten und bestimmte 
+                    Informationen anpassen. Sie können E-Mail-Adressen ändern, Rollen und 
+                    Berechtigungen zuweisen sowie Benutzerkonten sperren oder löschen. 
+                </p>
+                <p>
+                    Darüber hinaus werden Benutzerkonten und die damit verbundenen Daten 
+                    12 Monate nach dem letzten Login automatisch gelöscht, sofern keine 
+                    erneute Anmeldung erfolgt. Eine frühere Löschung ist auf Anfrage 
+                    möglich, sofern keine offenen Kursanmeldungen vorliegen. 
+                </p>
+            </li>
+            <li>
+                <h2>Welche Rechte du an deinen Daten hast</h2>
+                <p>
+                    Wenn du ein Konto auf dieser Website besitzt oder Kommentare 
+                    geschrieben hast, kannst du einen Export deiner personenbezogenen 
+                    Daten bei uns anfordern, inklusive aller Daten, die du uns mitgeteilt 
+                    hast. Darüber hinaus kannst du die Löschung aller personenbezogenen 
+                    Daten, die wir von dir gespeichert haben, anfordern. Dies umfasst 
+                    nicht die Daten, die wir aufgrund administrativer, rechtlicher oder 
+                    sicherheitsrelevanter Notwendigkeiten aufbewahren müssen. 
+                </p>
+            </li>
+            <li>
+                <h2>Wohin wir deine Daten senden</h2>
+                <p>
+                    Besucher-Kommentare könnten von einem automatisierten Dienst zur 
+                    Spam-Erkennung untersucht werden. 
+                </p>
+            </li>
+        </ol>
     </section>
 </main>
